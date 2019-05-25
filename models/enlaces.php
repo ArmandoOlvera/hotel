@@ -5,7 +5,7 @@ class Paginas{
 	public function enlacesPaginasModel($enlaces){
 
 //editarhab verhabitaciones
-		if($enlaces == "ganancias" ||$enlaces == "ingresar" || $enlaces == "usuarios" || $enlaces == "editar"|| $enlaces == "registrohab"|| $enlaces == "habitaciones"|| $enlaces == "editarhab"  || $enlaces == "clientes"|| $enlaces == "verhabitaciones"|| $enlaces == "registrocli"||  $enlaces == "registroreserva"||  $enlaces == "verreservas"||  $enlaces == "habitaciones2" ||  $enlaces == "reservas2" ||  $enlaces == "editarreserva"){
+		if($enlaces == "ganancias" ||$enlaces == "ingresar" || $enlaces == "usuarios" || $enlaces == "editar"|| $enlaces == "registrohab"|| $enlaces == "habitaciones"|| $enlaces == "editarhab"  || $enlaces == "clientes"|| $enlaces == "verhabitaciones"|| $enlaces == "registrocli"||  $enlaces == "registroreserva"||  $enlaces == "verreservas"||  $enlaces == "habitaciones2" ||  $enlaces == "reservas2" ||  $enlaces == "editarreserva"||  $enlaces == "dashboard"){
 
 			$module =  "views/modules/".$enlaces.".php";
 		

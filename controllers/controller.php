@@ -260,7 +260,7 @@ public function Redirect($url, $permanent = false)
  
 
  				 echo '<script type="text/javascript">
-                    window.location.replace("index.php?action=habitaciones1");
+                    window.location.replace("index.php?action=dashboard");
                   </script>';
 
 
